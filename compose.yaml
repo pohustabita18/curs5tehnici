@@ -3,7 +3,7 @@ services:
     build: .docker
     stdin_open: true
     tty: true
-    container_name: app.01Nov2024
+    container_name: app.gitHubTest
     environment:
      NODE_ENV: development
      CHOKIDAR_USEPOLLING: true
